@@ -23,8 +23,9 @@ hr {
   clear:both;
   display:block;
   width: 100%;
+  color: #202121;
   background-color:var(--underline-color-1);
-  height: 1px;
+  height: 2px;
 }
 
 .team-header img{
@@ -121,6 +122,28 @@ hr {
   }
 
 }
+.fab{
+  color:#ffffff;
+}
+.fas{
+  color:#ffffff;
+}
+p.read-more{
+  color:#ffffff;
+}
+.execom{
+  background-color: #1967D2;
+}
+.creative{
+  background-color: #C5221F;
+}
+.org{
+  background-color: #F29900;
+}
+.tech{
+  background-color: #188038;
+}
+
 
 .sticky-top {
   top: 5em;
@@ -157,3 +180,5 @@ hr {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+/* Side Bar */
