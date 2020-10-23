@@ -7,9 +7,20 @@ export default function Projects() {
     <Layout page="projects">
       <Head>
         <title>{siteTitle} - Projects</title>
+        <link rel="stylesheet" href="css/projects.css" />
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous"
+        />
       </Head>
 
-      <div className="main main-raised" style={{ marginTop: 0 }}>
+      <div className="main main-raised" style={{ marginTop: "0" }}>
         <div className="container">
           <div className="container-page">
             <div className="row mt-5">
@@ -23,7 +34,7 @@ export default function Projects() {
                 </h5>
                 <p>&nbsp;</p>
               </div>
-              <div className="col-lg-6" style={{ textAlign: "center" }}>
+              <div className="col-lg-6" style={{ textAlign: "center;" }}>
                 <img
                   className="img-fluid"
                   src="https://d33wubrfki0l68.cloudfront.net/4ca4b8ee50e95fb46c02681f286963aa6fa94c9f/4ead2/assets/img/kit/dunkathon.png"
@@ -31,6 +42,106 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img
+                  style={{
+                    height: "100%;",
+                    width: "100%;",
+                    objectFit: "contain;",
+                  }}
+                  src="images/DSC Logo.png"
+                  alt="dsc logo"
+                ></img>
+                <h2 style={{ fontWeight: "400;", color: "blue;" }}>
+                  {" "}
+                  JSSSTU CS Department
+                </h2>
+                <b>Web</b>
+                <p>
+                  <span
+                    class="dot"
+                    style={{ background: "rgb(0, 101, 202);" }}
+                  ></span>
+                </p>
+                <p>
+                  CSE department website for teachers to maintain their log of
+                  various activities.
+                </p>
+                <a>&emsp;</a>
+                <ul style={{ listStyleType: "none;", paddingTop: "41px;" }}>
+                  <li>
+                    <a
+                      id="social_link1"
+                      href="https://jssstu-cs.herokuapp.com/"
+                      target="_blank"
+                      style={{color:"#484848;"}}
+                    >
+                      <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a>&emsp;</a>
+                    <a>&emsp;</a>
+                    <a
+                      id="social_link2"
+                      href="https://github.com/dsc-jssstu/jsstu-cse-webapp"
+                      target="_blank"
+                      style={{ color: "#484848;" }}
+                    >
+                      <i class="fab fa-github fa-lg" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img
+                  style={{height: "100%;", width: "100%;", objectFit: "contain"}}
+                  src="images/DSC Logo.png"
+                  alt="dsc logo"
+                ></img>
+                <h2 style={{ fontWeight: "400;", color: "blue" }}>
+                  Project Reachout App
+                </h2>
+                <b>Android</b>
+                <p>
+                  <span class="dot" style={{ background: "red;" }}></span>
+                </p>
+                <p>
+                  Project Reachout is an NGO which mainly focuses on upbringing
+                  talents and helping a bunch of specially-abled kids to bring
+                  joy in their lives to cope up with this world.
+                </p>
+                <a>&emsp;</a>
+                <ul style={{ listStyleType: "none" }}>
+                  <li>
+                    <a
+                      id="social_link3"
+                      href="https://youtu.be/HMPDMOthVDU"
+                      target="_blank"
+                      style={{color:"#484848;"}}
+                    >
+                      <i class="fab fa-youtube fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a>&emsp;</a>
+                    <a
+                      id="social_link4"
+                      href="https://play.google.com/store/apps/details?id=com.projectreachout"
+                      target="_blank"
+                      style={{ color: "#484848;" }}
+                    >
+                      <i class="fab fa-google-play" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          
         </div>
       </div>
     </Layout>

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    display: table;
+    width: 35%;
+    padding: 10px 10px;
+  }
+  /* Responsive columns */
+  @media screen and (max-width: 1050px) {
+    .column {
+      width: 50%;
+    }
+  }
+  /* Responsive columns */
+  @media screen and (max-width: 700px) {
+    .column {
+      width: 70%;
+      margin: auto;
+      display: block;
+      float: none;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 85%;
+      display: block;
+      margin: auto;
+    }
+  }
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    width: 70%; /* Set full-width to expand the whole page */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+    font-size: large;
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+    transition: box-shadow 0.3s;
+    display: flex; /*doesn't matter*/
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+  .card_top {
+    height: 100px;
+    width: 100px;
+  }
