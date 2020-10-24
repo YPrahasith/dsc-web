@@ -71,7 +71,7 @@ export default function Projects() {
                   various activities.
                 </p>
                 <a>&emsp;</a>
-                <ul style={{ listStyleType: "none;", paddingTop: "41px;" }}>
+                <ul style={{ listStyleType: "none", paddingTop: "110px" }}>
                   <li>
                     <a
                       id="social_link1"
