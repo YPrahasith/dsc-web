@@ -16,12 +16,6 @@ export default function Projects() {
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
         />
-        <link
-          rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-          crossorigin="anonymous"
-        />
       </Head>
 
       <div className="main main-raised" style={{ marginTop: "10" }}>

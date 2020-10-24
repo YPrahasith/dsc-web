@@ -127,6 +127,11 @@ export default function Home() {
           We are actively conducting workshops, and also contributing to the
           development side by churning out high quality projects.
         </p>
+        <Link href="/projects">
+          <div data-aos="fade-up" className="button-maker">
+            <div className="button-text">Meet The Rish</div>
+          </div>
+        </Link>
         <div data-aos="fade-up" className="buttons">
           <a
             href="https://github.com/dsc-jssstu"
