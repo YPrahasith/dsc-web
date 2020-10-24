@@ -20,7 +20,7 @@ export default function Projects() {
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
 
@@ -33,7 +33,7 @@ export default function Projects() {
               <p>&nbsp;</p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
-              <h2 className="title">Projects</h2>
+              <h2 className="title" ref={headerRef}>Projects</h2>
               <h5 className="description">
                 Learing goes hand-in-hand with building new and cool stuff. And
                 here, we keep building stuff all the time. Here are a few of
@@ -52,7 +52,7 @@ export default function Projects() {
 
         <div className="row">
           <div className="column">
-            <div className="card">
+            <div className="card" style={{minHeight: "28rem"}}>
               <img
                 style={{
                   height: "100%",
@@ -78,7 +78,7 @@ export default function Projects() {
                 various activities.
               </p>
               <a>&emsp;</a>
-              <ul style={{ listStyleType: "none", paddingTop: "110px" }}>
+              <ul className="pad" style={{ listStyleType: "none" }}>
                 <li>
                   <a
                     id="social_link1"
@@ -86,7 +86,7 @@ export default function Projects() {
                     target="_blank"
                     style={{ color: "#484848" }}
                   >
-                    <i className="fa fa-link fa-lg" aria-hidden="true"></i>
+                    <i className="fa fa-link fa-lg" aria-hidden="true" style={{ paddingTop: "120px" }} ></i>
                   </a>
                   <a>&emsp;</a>
                   <a>&emsp;</a>
@@ -104,7 +104,7 @@ export default function Projects() {
           </div>
 
           <div className="column">
-            <div className="card">
+            <div className="card" style={{minHeight: "28rem"}}>
               <img
                 style={{ height: "100%", width: "100%", objectFit: "contain" }}
                 src="images/DSC Logo.png"
@@ -117,7 +117,7 @@ export default function Projects() {
               <p>
                 <span className="dot" style={{ background: "red" }}></span>
               </p>
-              <p>
+              <p className="para">
                 Project Reachout is an NGO which mainly focuses on upbringing
                 talents and helping a bunch of specially-abled kids to bring joy
                 in their lives to cope up with this world.

@@ -2,12 +2,12 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
 }
-.dark #members,
-.dark .card .box p {
-  color: #d1d1d1;
+.card{
+  min-height: 32rem!important;
 }
+
 .dark .description,
-.dark .title {
+.dark .title .para {
   color: #fff;
 }
 html * {
@@ -24,14 +24,16 @@ body {
 /* Float four columns side by side */
 .column {
   display: table;
-  width: 35%;
+  width: 40%;
   padding: 10px 10px;
 }
+
 /* Responsive columns */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .column {
-    width: 50%;
+    width: 70%;
   }
+
 }
 /* Responsive columns */
 @media screen and (max-width: 700px) {
@@ -47,11 +49,15 @@ body {
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {
-    width: 85%;
+    width: 100%;
     display: block;
     margin: auto;
   }
+  .row{
+    margin: 0;
+  }
 }
+
 /* Remove extra left and right margins, due to padding */
 .row {
   width: 70%; /* Set full-width to expand the whole page */
@@ -98,3 +104,4 @@ body {
   height: 100px;
   width: 100px;
 }
+
