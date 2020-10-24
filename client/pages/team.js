@@ -24,7 +24,7 @@ export default function Team() {
               The Team
             </h1>
             <h2 data-aos="fade-up" className="barlow-medium">
-              Presenting board of 2020-2021
+              Presenting board of 2020-2021 
             </h2>
           </div>
           <Link href="#our-work">

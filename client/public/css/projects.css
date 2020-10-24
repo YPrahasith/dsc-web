@@ -1,7 +1,20 @@
 * {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
   }
-
+  .dark #members, .dark .card .box p {
+    color: #d1d1d1;
+}
+.dark .description, .dark .title {
+  color: #fff;
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar-dsc-logo{
+  display: inline-block;
+}
   body {
     font-family: "Open Sans", sans-serif;
   }
@@ -44,8 +57,13 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 10%;
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('../images/after-landing.svg') center center fixed;
+    background-size:cover;
   }
-
+  .dark .row{
+    background: linear-gradient(rgba(32,32,32,.9), rgba(32,32,32,.9)), url('../images/after-landing-dark.svg') center center fixed;
+    background-size:cover;
+}
   /* Clear floats after the columns */
   .row:after {
     content: "";

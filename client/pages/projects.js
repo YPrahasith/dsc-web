@@ -1,10 +1,14 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import Link from "next/link";
+//import Link from "next/link";
+import { useRef } from "react";
 
 export default function Projects() {
+  const headerRef = useRef(null);
+  const logoLightRef = useRef(null);
+  const logoRef = useRef(null)
   return (
-    <Layout page="projects">
+    <Layout page="projects" headerRef={headerRef} >
       <Head>
         <title>{siteTitle} - Projects</title>
         <link rel="stylesheet" href="css/projects.css" />
@@ -20,11 +24,14 @@ export default function Projects() {
         />
       </Head>
 
-      <div className="main main-raised" style={{ marginTop: "0" }}>
+      <div className="main main-raised" style={{ marginTop: "10" }}>
         <div className="container">
           <div className="container-page">
             <div className="row mt-5">
               <div className="col-lg-6">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <h2 className="title">Projects</h2>
                 <h5 className="description">
@@ -34,7 +41,7 @@ export default function Projects() {
                 </h5>
                 <p>&nbsp;</p>
               </div>
-              <div className="col-lg-6" style={{ textAlign: "center;" }}>
+              <div className="col-lg-6" style={{ textAlign: "center" }}>
                 <img
                   className="img-fluid"
                   src="https://d33wubrfki0l68.cloudfront.net/4ca4b8ee50e95fb46c02681f286963aa6fa94c9f/4ead2/assets/img/kit/dunkathon.png"
@@ -48,14 +55,14 @@ export default function Projects() {
               <div class="card">
                 <img
                   style={{
-                    height: "100%;",
-                    width: "100%;",
-                    objectFit: "contain;",
+                    height: "100%",
+                    width: "100%",
+                    objectFit: "contain",
                   }}
                   src="images/DSC Logo.png"
                   alt="dsc logo"
                 ></img>
-                <h2 style={{ fontWeight: "400;", color: "blue;" }}>
+                <h2 style={{ fontWeight: "400", color: "blue" }}>
                   {" "}
                   JSSSTU CS Department
                 </h2>
@@ -63,7 +70,7 @@ export default function Projects() {
                 <p>
                   <span
                     class="dot"
-                    style={{ background: "rgb(0, 101, 202);" }}
+                    style={{ background: "rgb(0, 101, 202)" }}
                   ></span>
                 </p>
                 <p>
@@ -77,7 +84,7 @@ export default function Projects() {
                       id="social_link1"
                       href="https://jssstu-cs.herokuapp.com/"
                       target="_blank"
-                      style={{color:"#484848;"}}
+                      style={{color:"#484848"}}
                     >
                       <i class="fa fa-link fa-lg" aria-hidden="true"></i>
                     </a>
@@ -87,7 +94,7 @@ export default function Projects() {
                       id="social_link2"
                       href="https://github.com/dsc-jssstu/jsstu-cse-webapp"
                       target="_blank"
-                      style={{ color: "#484848;" }}
+                      style={{ color: "#484848" }}
                     >
                       <i class="fab fa-github fa-lg" aria-hidden="true"></i>
                     </a>
@@ -99,16 +106,16 @@ export default function Projects() {
             <div class="column">
               <div class="card">
                 <img
-                  style={{height: "100%;", width: "100%;", objectFit: "contain"}}
+                  style={{height: "100%", width: "100%", objectFit: "contain"}}
                   src="images/DSC Logo.png"
                   alt="dsc logo"
                 ></img>
-                <h2 style={{ fontWeight: "400;", color: "blue" }}>
+                <h2 style={{ fontWeight: "400", color: "blue" }}>
                   Project Reachout App
                 </h2>
                 <b>Android</b>
                 <p>
-                  <span class="dot" style={{ background: "red;" }}></span>
+                  <span class="dot" style={{ background: "red" }}></span>
                 </p>
                 <p>
                   Project Reachout is an NGO which mainly focuses on upbringing
@@ -122,7 +129,7 @@ export default function Projects() {
                       id="social_link3"
                       href="https://youtu.be/HMPDMOthVDU"
                       target="_blank"
-                      style={{color:"#484848;"}}
+                      style={{color:"#484848"}}
                     >
                       <i class="fab fa-youtube fa-lg" aria-hidden="true"></i>
                     </a>
@@ -131,7 +138,7 @@ export default function Projects() {
                       id="social_link4"
                       href="https://play.google.com/store/apps/details?id=com.projectreachout"
                       target="_blank"
-                      style={{ color: "#484848;" }}
+                      style={{ color: "#484848" }}
                     >
                       <i class="fab fa-google-play" aria-hidden="true"></i>
                     </a>
