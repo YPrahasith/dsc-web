@@ -25,7 +25,7 @@ export default function Projects() {
       </Head>
 
       <div className="main main-raised" style={{ marginTop: "10" }}>
-        <div className="container">
+        {/*<div className="container">*/}
           <div className="container-page">
             <div className="row mt-5">
               <div className="col-lg-6">
@@ -149,7 +149,7 @@ export default function Projects() {
           </div>
 
           
-        </div>
+        {/*</div>*/}
       </div>
     </Layout>
   );
