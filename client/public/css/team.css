@@ -271,7 +271,7 @@ width:85%;
 padding-top: 3rem !important;
 }
 
-.team-card-column, .team-card-row, .chapter-lead, .staff-lead{
+.team-card-column, .chapter-lead, .staff-lead{
 padding-top: 3rem !important;
 padding-bottom: 3rem !important;
 }
@@ -280,7 +280,7 @@ padding-bottom: 3rem !important;
 margin-right: auto !important;
 margin-left: auto !important;
 text-align: center !important;
-margin: 1rem 0 1rem 0;
+margin: 5rem 0 0 0;
 }
 
 .team .social-circle-icon{
