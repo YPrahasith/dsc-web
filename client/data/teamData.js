@@ -284,7 +284,7 @@
 
         community_name: "Pranav Bedre",
         community_pic:"/images/core-team-2020/Pranav_LEAD.jpg",
-        short_community_text:"O captain, our captain !! Here is our own Ms Dhoni, marshalling his troops in a calm, collected manner; carrying himself and the team with utmost dignity and elegance. With a voice as soothing as his, you will have a hard time grasping the matter at hand, as you are allured into a sweet slumber just like a kid who falls asleep after devouring all the plumpy mangoes on a hot summer afternoon. He is always ready to guide you in any sense and is a man of great patience and grit. Speak to him, and you sure will end up feeling even more motivated and energetic. ",
+        short_community_text:"O captain, our captain !! Here is our own M.S Dhoni, marshalling his troops in a calm, collected manner; carrying himself and the team with utmost dignity and elegance. With a voice as soothing as his, you will have a hard time grasping the matter at hand, as you are allured into a sweet slumber just like a kid who falls asleep after devouring all the plumpy mangoes on a hot summer afternoon. He is always ready to guide you in any sense and is a man of great patience and grit. Speak to him, and you sure will end up feeling even more motivated and energetic. ",
         community_instagram: "#",
         community_github: "#",
         community_linkedin: "#",
