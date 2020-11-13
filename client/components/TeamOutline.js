@@ -498,6 +498,41 @@ const TeamOutline= ({page}) => {
                                 </TeamCardBack>
                               </TeamCard>
                             </div>
+
+                            <div className="col-md-6">
+                              <TeamCard>
+                                <TeamCardFront
+                                  title={team.event_name_3}
+                                  faceImage={team.event_pic_3}
+                                  instagramLink={team.event_instagram_3}
+                                  githubLink={team.event_github_3}
+                                  linkedinLink={team.event_linkedin_3}
+                                >
+                                  {team.short_event_text_3}
+
+                                </TeamCardFront>
+                                <TeamCardBack>
+                                  {team.long_event_text_3}
+                                </TeamCardBack>
+                              </TeamCard>
+                            </div>
+                            <div className="col-md-6">
+                              <TeamCard>
+                                <TeamCardFront
+                                  title={team.event_name_4}
+                                  faceImage={team.event_pic_4}
+                                  instagramLink={team.event_instagram_4}
+                                  githubLink={team.event_github_4}
+                                  linkedinLink={team.event_linkedin_4}
+                                >
+                                   {team.short_event_text_4}
+                                </TeamCardFront>
+                                <TeamCardBack>
+                                 {team.long_event_text_4}
+                                </TeamCardBack>
+                              </TeamCard>
+                            </div>
+
                           </div>
                         </div>
                         {/*Op Exec and PR*/}

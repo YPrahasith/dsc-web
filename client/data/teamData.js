@@ -20,28 +20,29 @@
         community_github: "#",
         community_linkedin: "#",
 
-        section_3:"",
+        section_3:"COMMUNICATION AND OUTREACH LEADS",
 
-        execom_name_1: "Card Title",
-        execom_pic_1:"/images/face.jpg",
-        short_execom_text_1:"Some quick example text to build on the card",
-        long_execom_text_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        execom_name_1: "Chiranthan S",
+        execom_pic_1:"/images/Chir - Chiranthan S.jpg",
+        short_execom_text_1:"He might seem to be a loquacious person during...",
+        long_execom_text_1: "He might seem to be a loquacious person during the beginning. He acts as a spur to your ideas and has never failed in convincing the crowd to believe in him. He is interested in Machine learning and Cloud Computing aspects as well.He often keeps saying 'alone we can do so little, together we can do so much' and strongly believes in ideology of teamwork. An earnest companion one can wish for. He does his homework for the tasks assigned and won't let you down.",
         execom_instagram_1: "#",
         execom_github_1: "#",
         execom_linkedin_1: "#",
 
-        execom_name_2: "Card Title",
-        execom_pic_2:"/images/face.jpg",
-        short_execom_text_2:"Some quick example text to build on the card",
-        long_execom_text_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+
+        execom_name_2: "Nimish L",
+        execom_pic_2:"/images/Nimish Aarya.jpg",
+        short_execom_text_2:"Meet Nimish Aarya, a kind of a guy who intends...",
+        long_execom_text_2: "Meet Nimish Aarya, a kind of a guy who intends to be loyal to everyone. His personality exceeds him. You can always tell him everything because he is a patient listener. Some of his interesting works are in Image processing and web development. Android development and Machine Learning has caught his interests. Being a part of this club, he too aspires to make the world a better place.",
         execom_instagram_2: "#",
         execom_github_2: "#",
         execom_linkedin_2: "#",
 
-        execom_name_3: "Card Title",
+        execom_name_3: "Hymavathi B U",
         execom_pic_3:"/images/face.jpg",
-        short_execom_text_3:"Some quick example text to build on the card",
-        long_execom_text_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        short_execom_text_3:"She is an arrogant girl at the first look...",
+        long_execom_text_3: "She is an arrogant girl at the first look but a sweet and easygoing person after you get to know her.An ardent shopaholic and an ailurophile.A sci-fi fan,tech freak,crypto and stock market entusiast. She engages in conversations very easily and loves talking with people.Loves debating as if it's a hobby. Former AIESECer.",
         execom_instagram_3: "#",
         execom_github_3: "#",
         execom_linkedin_3: "#",
@@ -66,23 +67,23 @@
         ml_github_2: "#",
         ml_linkedin_2: "#",
 
-        ml_name_3: "Card Title",
+        ml_name_3: "",
         ml_pic_3:"/images/face.jpg",
-        short_ml_text_3:"Some quick example text to build on the card",
-        long_ml_text_3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        short_ml_text_3:"",
+        long_ml_text_3: "",
         ml_instagram_3: "#",
         ml_github_3: "#",
         ml_linkedin_3: "#",
 
-        ml_name_4: "Card Title",
+        ml_name_4: "",
         ml_pic_4:"/images/face.jpg",
-        short_ml_text_4:"Some quick example text to build on the card",
-        long_ml_text_4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        short_ml_text_4:"",
+        long_ml_text_4: "",
         ml_instagram_4: "#",
         ml_github_4: "#",
         ml_linkedin_4: "#",
 
-        section_6:"WEB",
+        section_6:"WEB DEVELOPMENT LEADS",
 
         web_name_1: "Nitin Bhat",
         web_pic_1:"/images/nitin bhat.jpg",
@@ -99,8 +100,8 @@
         web_instagram_2: "#",
         web_github_2: "#",
         web_linkedin_2: "#",
-        
-        section_7:"ANDROID",
+
+        section_7:"ANDROID LEADS",
 
         android_name_1: "Bebikananda Waikhom",
         android_pic_1:"/images/Bbake Waikhom.jpg",
@@ -117,8 +118,8 @@
         android_instagram_2: "#",
         android_github_2: "#",
         android_linkedin_2: "#",
-        
-        section_8:"FLUTTER",
+
+        section_8:"TECH ADVISOR",
 
         flutter_name_1: "Amith Kumar",
         flutter_pic_1:"/images/Amith Kumar.jpg",
@@ -127,7 +128,7 @@
         flutter_instagram_1: "#",
         flutter_github_1: "#",
         flutter_linkedin_1: "#",
-        
+
         section_9:"TECH ADVISOR",
 
         techadv_name_1: "Rakshak Gowda J",
@@ -137,46 +138,46 @@
         techadv_instagram_1: "#",
         techadv_github_1: "#",
         techadv_linkedin_1: "#",
-        
+
         section_10:"CREATIVE TEAM",
 
-        section_11: " COMM AND OUTREACH",
+        section_11: "",
 
-        comm_name_1: "Chiranthan S",
-        comm_pic_1:"/images/Chir - Chiranthan S.jpg",
-        short_comm_text_1:"He might seem to be a loquacious person during...",
-        long_comm_text_1: "He might seem to be a loquacious person during the beginning. He acts as a spur to your ideas and has never failed in convincing the crowd to believe in him. He is interested in Machine learning and Cloud Computing aspects as well.He often keeps saying 'alone we can do so little, together we can do so much' and strongly believes in ideology of teamwork. An earnest companion one can wish for. He does his homework for the tasks assigned and won't let you down.",
+        comm_name_1: "",
+        comm_pic_1:"/images/face.jpg",
+        short_comm_text_1:"",
+        long_comm_text_1: "",
         comm_instagram_1: "#",
         comm_github_1: "#",
         comm_linkedin_1: "#",
 
-        comm_name_2: "Nimish L",
-        comm_pic_2:"/images/Nimish Aarya.jpg",
-        short_comm_text_2:"Meet Nimish Aarya, a kind of a guy who intends...",
-        long_comm_text_2: "Meet Nimish Aarya, a kind of a guy who intends to be loyal to everyone. His personality exceeds him. You can always tell him everything because he is a patient listener. Some of his interesting works are in Image processing and web development. Android development and Machine Learning has caught his interests. Being a part of this club, he too aspires to make the world a better place.",
+        comm_name_2: "",
+        comm_pic_2:"/images/face.jpg",
+        short_comm_text_2:"",
+        long_comm_text_2: "",
         comm_instagram_2: "#",
         comm_github_2: "#",
         comm_linkedin_2: "#",
-        
-        section_12:" GRAPHIC DESIGNER",
 
-        graphic_name_1: "Hymavathi B U",
+        section_12:"",
+
+        graphic_name_1: "",
         graphic_pic_1:"/images/face.jpg",
-        short_graphic_text_1:"She is an arrogant girl at the first look...",
-        long_graphic_text_1: "She is an arrogant girl at the first look but a sweet and easygoing person after you get to know her.An ardent shopaholic and an ailurophile.A sci-fi fan,tech freak,crypto and stock market entusiast. She engages in conversations very easily and loves talking with people.Loves debating as if it's a hobby. Former AIESECer.",
+        short_graphic_text_1:"",
+        long_graphic_text_1: "",
         graphic_instagram_1: "#",
         graphic_github_1: "#",
         graphic_linkedin_1: "#",
 
-        graphic_name_2: "Card Title",
+        graphic_name_2: "",
         graphic_pic_2:"/images/face.jpg",
-        short_graphic_text_2:"Some quick example text to build on the card",
-        long_graphic_text_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        short_graphic_text_2:"",
+        long_graphic_text_2: "",
         graphic_instagram_2: "#",
         graphic_github_2: "#",
         graphic_linkedin_2: "#",
 
-        section_13:"EDITORIAL",
+        section_13:"CONTENT DEVELOPER",
 
         editorial_name_1: "Triveni",
         editorial_pic_1:"/images/triveni.jpg",
@@ -186,16 +187,16 @@
         editorial_github_1: "#",
         editorial_linkedin_1: "#",
 
-        editorial_name_2: "Card Title",
+        editorial_name_2: "",
         editorial_pic_2:"/images/face.jpg",
-        short_editorial_text_2:"Some quick example text to build on the card",
-        long_editorial_text_2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        short_editorial_text_2:"",
+        long_editorial_text_2: "",
         editorial_instagram_2: "#",
         editorial_github_2: "#",
         editorial_linkedin_2: "#",
-        
+
         section_14:"ORGANISATIONAL TEAM",
-        section_15:"EVENT COORDINATOR",
+        section_15:"EVENT COVERAGE LEADS",
 
         event_name_1: "Rishika",
         event_pic_1:"/images/Rishika.jpg",
@@ -213,27 +214,43 @@
         event_github_2: "#",
         event_linkedin_2: "#",
 
-        section_16:"OP EXEC",
+        event_name_3: "",
+        event_pic_3:"/images/face.jpg",
+        short_event_text_3:"",
+        long_event_text_3: "",
+        event_instagram_3: "#",
+        event_github_3: "#",
+        event_linkedin_3: "#",
 
-        opexec_name_1: "Card Title",
-        opexec_pic_1:"/images/face.jpg",
-        short_opexec_text_1:"Some quick example text to build on the card",
-        long_opexec_text_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        event_name_4: "",
+        event_pic_4:"/images/face.jpg",
+        short_event_text_4:"",
+        long_event_text_4: "",
+        event_instagram_4: "#",
+        event_github_4: "#",
+        event_linkedin_4: "#",
+
+        section_16:"OPERATIONS LEADS",
+
+        opexec_name_1: "V Shaashwath",
+        opexec_pic_1:"/images/Shashawath Vijayakumar.jpeg",
+        short_opexec_text_1:"Shashwath has quite a personality to himself...",
+        long_opexec_text_1: "Shashwath has quite a personality to himself. For starters he's got long hair, quite sarcastic and has a fairly good sense of humor ! He's got enough patience and tolerance for the person reading this and him as well. Coding is what he's preferred to love and work with even though he's 3 years into ECE. He's a fun guy and would rather stab you in the front",
         opexec_instagram_1: "#",
         opexec_github_1: "#",
         opexec_linkedin_1: "#",
-        
-        section_17:"PR",
 
-        pr_name_1: "Card Title",
-        pr_pic_1:"/images/face.jpg",
-        short_pr_text_1:"Some quick example text to build on the card",
-        long_pr_text_1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut purus placerat, ultricies neque et, congue orci.Nunc viverra in aliquam. Integereuismod, ex sit amet lobortis imperdiet, erossapien sodales nisi, at scelerisque liberolibero vitae ex. Nunc viverra in magna sedaliquam. Integer euismod, ex sit amet lobortisimperdiet, eros sapien sodales nisi, atscelerisque libero libero vitae ex. Nuncrhoncus vestibulum nunc a convallis.Integereuismod, ex sit amet lobortis imperdiet.",
+        section_17:"OPERATIONS LEAD",
+
+        pr_name_1: "Vishruth",
+        pr_pic_1:"/images/Vishruth.jpeg",
+        short_pr_text_1:"This exceptional tall person is a self-proclaimed introvert.",
+        long_pr_text_1: "Though most people get to see a silent, observant and curious side of him, those that know him better would say he never shuts his mouth. Full of ideas and solutions for various problems, his jovial and humourous approach to such obstacles make him a fun person to be around. He welcomes any, and all cat videos.",
         pr_instagram_1: "#",
         pr_github_1: "#",
         pr_linkedin_1: "#",
-        
-        section_18:"VIDEO EDITORS",
+
+        section_18:"PHOTOGRAPHY AND VIDEO EDITING",
 
         video_name_1: "Chyavan M C",
         video_pic_1:"/images/Chyavan MC.jpeg",
@@ -253,8 +270,8 @@
  },
  "2020": {
         index : 0,
-        
-        section_1:"STAFF COORDINATOR", 
+
+        section_1:"STAFF COORDINATOR",
 
         coor_name: "Dr. MP Pushpalatha",
         coor_pic:"/images/hod.jpg",
@@ -262,7 +279,7 @@
         coor_instagram: "#",
         coor_github: "#",
         coor_linkedin: "#",
-        
+
         section_2:"COMMUNITY LEAD",
 
         community_name: "Pranav Bedre",
@@ -271,7 +288,7 @@
         community_instagram: "#",
         community_github: "#",
         community_linkedin: "#",
-        
+
         section_3:"EXECOM",
 
         execom_name_1: "Vijeth Vaishnav",
@@ -312,7 +329,7 @@
         ml_name_2: "Royina KJ",
         ml_pic_2:"/images/core-team-2020/Royina_ML.jpg",
         short_ml_text_2:"We present to you, the smarty-pants of the club! ",
-        long_ml_text_2:"No one can justify the word 'Chirpy' better than her. Meet this genius who appreciates the beauty of Math and ML. Our ML Queen loves spicy food, but she loves Loki more! She's a spark that keeps the humour and liveliness in all of us alive. Royina is someone who's always up for a hug! She is known for being mischievous, lively, and she giggles her way through life. ", 
+        long_ml_text_2:"No one can justify the word 'Chirpy' better than her. Meet this genius who appreciates the beauty of Math and ML. Our ML Queen loves spicy food, but she loves Loki more! She's a spark that keeps the humour and liveliness in all of us alive. Royina is someone who's always up for a hug! She is known for being mischievous, lively, and she giggles her way through life. ",
         ml_instagram_2: "#",
         ml_github_2: "#",
         ml_linkedin_2: "#",
@@ -332,7 +349,7 @@
         ml_instagram_4: "#",
         ml_github_4: "#",
         ml_linkedin_4: "#",
-        
+
         section_6:"WEB",
 
         web_name_1: "Y Prahasith",
@@ -343,7 +360,7 @@
         web_github_1: "#",
         web_linkedin_1: "#",
 
-        web_name_2: "Poorvi",
+        web_name_2: "Poorvi Shetty",
         web_pic_2:"/images/core-team-2020/Poorvi_Web.jpg",
         short_web_text_2:"If procrastination is elusive, then you're working with..",
         long_web_text_2: "..The Giggling Girl! She is exceptional in web development but marvellous at content writing too. She is optimistic and exuberant for any work and a smart problem solver. She is one who can get quicker results because procrastination is not her cup of tea. She is very kind, cheerful and graceful. On the other hand, you'll always find her using emoticons. She's astoundingly good at multitasking and is always ready to be corrected.",
@@ -463,6 +480,22 @@
         event_instagram_2: "#",
         event_github_2: "#",
         event_linkedin_2: "#",
+
+        event_name_3: "Preethi",
+        event_pic_3:"/images/core-team-2020/Preethi_Event_Co.jpg",
+        short_event_text_3:"She is a woman of confidence, courage and she stands up for what she believes in.",
+        long_event_text_3: "She loves potato chips more than anything and will trade anything for a bag of chips XD. She is only silent till you get to know the real her. Can you believe this graceful girl is a swimmer and a tennis player! She is as resourceful as one can get, makes the best out of any given situation. A beautifully composed soul who can manage the worst situations gracefully.",
+        event_instagram_3: "#",
+        event_github_3: "#",
+        event_linkedin_3: "#",
+
+        event_name_4: "Pruthvi Bhat",
+        event_pic_4:"/images/core-team-2020/Pruthvi_Bhat_Event_Co.jpg",
+        short_event_text_4:"Meet the person who gives astounding ideas and is competent enough at executing it. ",
+        long_event_text_4: "He is always eager to work and learn something new. He is a wondrous singer and passionate about it. He relishes working with the team and is bold and confident to take up initiatives. He's remarkably sanguine about the problems involved and his attitude towards life. He doesn't fear hurdles and overcomes it with a smile. He is someone you can completely rely upon.",
+        event_instagram_4: "#",
+        event_github_4: "#",
+        event_linkedin_4: "#",
 
         section_16:"OP EXEC",
 
