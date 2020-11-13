@@ -145,32 +145,50 @@ const TeamOutline = ({ page }) => {
                         </TeamCard>
                       </div>
                       <div className="col-md-6">
-                        <TeamCard>
-                          <TeamCardFront
-                            title={team.ml_name_3}
-                            faceImage={team.ml_pic_3}
-                            instagramLink={team.ml_instagram_3}
-                            githubLink={team.ml_github_3}
-                            linkedinLink={team.ml_linkedin_3}
-                          >
-                            {team.short_ml_text_3}
-                          </TeamCardFront>
-                          <TeamCardBack>{team.long_ml_text_3}</TeamCardBack>
-                        </TeamCard>
+                      {(() => {
+                        if (team.comm_name_1!="") {
+                          return (
+
+                            <TeamCard>
+                              <TeamCardFront
+                                title={team.ml_name_3}
+                                faceImage={team.ml_pic_3}
+                                instagramLink={team.ml_instagram_3}
+                                githubLink={team.ml_github_3}
+                                linkedinLink={team.ml_linkedin_3}
+                              >
+                                {team.short_ml_text_3}
+                              </TeamCardFront>
+                              <TeamCardBack>{team.long_ml_text_3}</TeamCardBack>
+                            </TeamCard>
+
+                          )
+                        }
+                      })()}
+
                       </div>
                       <div className="col-md-6">
-                        <TeamCard>
-                          <TeamCardFront
-                            title={team.ml_name_4}
-                            faceImage={team.ml_pic_4}
-                            instagramLink={team.ml_instagram_4}
-                            githubLink={team.ml_github_4}
-                            linkedinLink={team.ml_linkedin_4}
-                          >
-                            {team.short_ml_text_4}
-                          </TeamCardFront>
-                          <TeamCardBack>{team.long_ml_text_4}</TeamCardBack>
-                        </TeamCard>
+                      {(() => {
+                        if (team.comm_name_1!="") {
+                          return (
+
+                            <TeamCard>
+                              <TeamCardFront
+                                title={team.ml_name_4}
+                                faceImage={team.ml_pic_4}
+                                instagramLink={team.ml_instagram_4}
+                                githubLink={team.ml_github_4}
+                                linkedinLink={team.ml_linkedin_4}
+                              >
+                                {team.short_ml_text_4}
+                              </TeamCardFront>
+                              <TeamCardBack>{team.long_ml_text_4}</TeamCardBack>
+                            </TeamCard>
+
+                          )
+                        }
+                      })()}
+
                       </div>
                     </div>
                   </div>
@@ -248,171 +266,48 @@ const TeamOutline = ({ page }) => {
                           </TeamCardBack>
                         </TeamCard>
                       </div>
-                      {/*ORGANISATIONAL*/}
-                      <div className="organisational">
-                        <div className="row team-row">
-                          <h2 className="section-heading mx-auto">
-                            {team.section_14}
-                          </h2>
-                          <hr />{" "}
-                        </div>
-                        {/*Event Coordinators*/}
-                        <div className="container team-card-row">
-                          <div className="row">
-                            <h2 className="team-row-heads ">
-                              {team.section_15}
-                            </h2>{" "}
-                          </div>
-                          <div className="row">
-                            <div className="col-md-6">
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.event_name_1}
-                                  faceImage={team.event_pic_1}
-                                  instagramLink={team.event_instagram_1}
-                                  githubLink={team.event_github_1}
-                                  linkedinLink={team.event_linkedin_1}
-                                >
-                                  {team.short_event_text_1}
-
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                  {team.long_event_text_1}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-                            <div className="col-md-6">
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.event_name_2}
-                                  faceImage={team.event_pic_2}
-                                  instagramLink={team.event_instagram_2}
-                                  githubLink={team.event_github_2}
-                                  linkedinLink={team.event_linkedin_2}
-                                >
-                                   {team.short_event_text_2}
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                 {team.long_event_text_2}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-
-                            <div className="col-md-6">
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.event_name_3}
-                                  faceImage={team.event_pic_3}
-                                  instagramLink={team.event_instagram_3}
-                                  githubLink={team.event_github_3}
-                                  linkedinLink={team.event_linkedin_3}
-                                >
-                                  {team.short_event_text_3}
-
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                  {team.long_event_text_3}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-                            <div className="col-md-6">
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.event_name_4}
-                                  faceImage={team.event_pic_4}
-                                  instagramLink={team.event_instagram_4}
-                                  githubLink={team.event_github_4}
-                                  linkedinLink={team.event_linkedin_4}
-                                >
-                                   {team.short_event_text_4}
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                 {team.long_event_text_4}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-
-                          </div>
-                        </div>
-                        {/*Op Exec and PR*/}
-                        <div className="container team-card-row">
-                          <div className="row">
-                            <div className="col-md-6 team-card-column">
-                              <h2 className="team-row-heads">{team.section_16}</h2>
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.opexec_name_1}
-                                  faceImage={team.opexec_pic_1}
-                                  instagramLink={team.opexec_instagram_1}
-                                  githubLink={team.opexec_github_1}
-                                  linkedinLink={team.opexec_linkedin_1}
-                                >
-                                 {team.short_opexec_text_1}
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                 {team.long_opexec_text_1}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-                            <div className="col-md-6 team-card-column">
-                              <h2 className="team-row-heads text-center">{team.section_17}</h2>
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.pr_name_1}
-                                  faceImage={team.pr_pic_1}
-                                  instagramLink={team.pr_instagram_1}
-                                  githubLink={team.pr_github_1}
-                                  linkedinLink={team.pr_linkedin_1}
-                                >
-                                  {team.short_pr_text_1}
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                  {team.long_pr_text_1}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Video Editor*/}
-                        <div className="container team-card-row">
-                          <div className="row">
-                            <h2 className="team-row-heads ">{team.section_18}</h2>{" "}
-                          </div>
-                          <div className="row">
-                            <div className="col-md-6">
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.video_name_1}
-                                  faceImage={team.video_pic_1}
-                                  instagramLink={team.video_instagram_1}
-                                  githubLink={team.video_github_1}
-                                  linkedinLink={team.video_linkedin_1}
-                                >
-                                  {team.short_video_text_1}
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                  {team.long_video_text_1}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-                            <div className="col-md-6">
-                              <TeamCard>
-                                <TeamCardFront
-                                  title={team.video_name_2}
-                                  faceImage={team.video_pic_2}
-                                  instagramLink={team.video_instagram_2}
-                                  githubLink={team.video_github_2}
-                                  linkedinLink={team.video_linkedin_2}
-                                >
-                                  {team.short_video_text_2}
-                                </TeamCardFront>
-                                <TeamCardBack>
-                                 {team.long_video_text_2}
-                                </TeamCardBack>
-                              </TeamCard>
-                            </div>
-                          </div>
-                        </div>
+                    </div>
+                  </div>
+                  {/*Flutter and Tech Advisor*/}
+                  <div className="container team-card-row">
+                    <div className="row">
+                      <div className="col-md-6 team-card-column">
+                        <h2 className="team-row-heads text-center">
+                          {team.section_8}
+                        </h2>
+                        <TeamCard>
+                          <TeamCardFront
+                            title={team.flutter_name_1}
+                            faceImage={team.flutter_pic_1}
+                            instagramLink={team.flutter_instagram_1}
+                            githubLink={team.flutter_github_1}
+                            linkedinLink={team.flutter_linkedin_1}
+                          >
+                            {team.short_flutter_text_1}
+                          </TeamCardFront>
+                          <TeamCardBack>
+                            {team.long_flutter_text_1}
+                          </TeamCardBack>
+                        </TeamCard>
+                      </div>
+                      <div className="col-md-6 team-card-column">
+                        <h2 className="team-row-heads text-center">
+                          {team.section_9}
+                        </h2>
+                        <TeamCard>
+                          <TeamCardFront
+                            title={team.techadv_name_1}
+                            faceImage={team.techadv_pic_1}
+                            instagramLink={team.techadv_instagram_1}
+                            githubLink={team.techadv_github_1}
+                            linkedinLink={team.techadv_linkedin_1}
+                          >
+                            {team.short_techadv_text_1}
+                          </TeamCardFront>
+                          <TeamCardBack>
+                            {team.long_techadv_text_1}
+                          </TeamCardBack>
+                        </TeamCard>
                       </div>
                     </div>
                   </div>
@@ -426,73 +321,124 @@ const TeamOutline = ({ page }) => {
                 </div>
                 {/*Communication and Outreach*/}
                 <div className="container team-card-row">
-                  <div className="row">
-                    <h2 className="team-row-heads ">{team.section_11}</h2>{" "}
-                  </div>
+                {(() => {
+                  if (team.section_11!="") {
+                    return (
+                        <div className="row">
+                          <h2 className="team-row-heads ">{team.section_11}</h2>{" "}
+                        </div>
+                    )
+                  }
+                })()}
                   <div className="row">
                     <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.comm_name_1}
-                          faceImage={team.comm_pic_1}
-                          instagramLink={team.comm_instagram_1}
-                          githubLink={team.comm_github_1}
-                          linkedinLink={team.comm_linkedin_1}
-                        >
-                          {team.short_comm_text_1}
-                        </TeamCardFront>
-                        <TeamCardBack>{team.long_comm_text_1}</TeamCardBack>
-                      </TeamCard>
-                    </div>
-                    <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.comm_name_2}
-                          faceImage={team.comm_pic_2}
-                          instagramLink={team.comm_instagram_2}
-                          githubLink={team.comm_github_2}
-                          linkedinLink={team.comm_linkedin_2}
-                        >
-                          {team.short_comm_text_2}
-                        </TeamCardFront>
-                        <TeamCardBack>{team.long_comm_text_2}</TeamCardBack>
-                      </TeamCard>
-                    </div>
+
+                      {(() => {
+                        if (team.comm_name_1!="") {
+                          return (
+
+                            <TeamCard>
+                              <TeamCardFront
+                                title={team.comm_name_1}
+                                faceImage={team.comm_pic_1}
+                                instagramLink={team.comm_instagram_1}
+                                githubLink={team.comm_github_1}
+                                linkedinLink={team.comm_linkedin_1}
+                              >
+                                {team.short_comm_text_1}
+                              </TeamCardFront>
+                              <TeamCardBack>{team.long_comm_text_1}</TeamCardBack>
+                            </TeamCard>
+
+                          )
+                        }
+                      })()}
+                      </div>
+                      <div className="col-md-6">
+
+                        {(() => {
+                          if (team.comm_name_2!="") {
+                            return (
+
+                              <TeamCard>
+                                <TeamCardFront
+                                  title={team.comm_name_2}
+                                  faceImage={team.comm_pic_2}
+                                  instagramLink={team.comm_instagram_2}
+                                  githubLink={team.comm_github_2}
+                                  linkedinLink={team.comm_linkedin_2}
+                                >
+                                  {team.short_comm_text_2}
+                                </TeamCardFront>
+                                <TeamCardBack>{team.long_comm_text_2}</TeamCardBack>
+                              </TeamCard>
+
+                            )
+                          }
+                        })()}
+                        </div>
                   </div>
                 </div>
                 {/*Graphic Designer*/}
                 <div className="container team-card-row">
-                  <div className="row">
-                    <h2 className="team-row-heads ">{team.section_12}</h2>{" "}
-                  </div>
+
+                  {(() => {
+                    if (team.section_12!="") {
+                      return (
+
+                          <div className="row">
+                            <h2 className="team-row-heads ">{team.section_12}</h2>{" "}
+                          </div>
+
+                      )
+                    }
+                  })()}
+
                   <div className="row">
                     <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.graphic_name_1}
-                          faceImage={team.graphic_pic_1}
-                          instagramLink={team.graphic_instagram_1}
-                          githubLink={team.graphic_github_1}
-                          linkedinLink={team.graphic_linkedin_1}
-                        >
-                          {team.short_graphic_text_1}
-                        </TeamCardFront>
-                        <TeamCardBack>{team.long_graphic_text_1}</TeamCardBack>
-                      </TeamCard>
+
+                      {(() => {
+                        if (team.graphic_name_1!="") {
+                          return (
+
+                            <TeamCard>
+                              <TeamCardFront
+                                title={team.graphic_name_1}
+                                faceImage={team.graphic_pic_1}
+                                instagramLink={team.graphic_instagram_1}
+                                githubLink={team.graphic_github_1}
+                                linkedinLink={team.graphic_linkedin_1}
+                              >
+                                {team.short_graphic_text_1}
+                              </TeamCardFront>
+                              <TeamCardBack>{team.long_graphic_text_1}</TeamCardBack>
+                            </TeamCard>
+
+                          )
+                        }
+                      })()}
                     </div>
                     <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.graphic_name_2}
-                          faceImage={team.graphic_pic_2}
-                          instagramLink={team.graphic_instagram_2}
-                          githubLink={team.graphic_github_2}
-                          linkedinLink={team.graphic_linkedin_2}
-                        >
-                          {team.short_graphic_text_2}
-                        </TeamCardFront>
-                        <TeamCardBack>{team.long_graphic_text_2}</TeamCardBack>
-                      </TeamCard>
+                      {(() => {
+                        if (team.graphic_name_2!="") {
+                          return (
+
+                            <TeamCard>
+                              <TeamCardFront
+                                title={team.graphic_name_2}
+                                faceImage={team.graphic_pic_2}
+                                instagramLink={team.graphic_instagram_2}
+                                githubLink={team.graphic_github_2}
+                                linkedinLink={team.graphic_linkedin_2}
+                              >
+                                {team.short_graphic_text_2}
+                              </TeamCardFront>
+                              <TeamCardBack>{team.long_graphic_text_2}</TeamCardBack>
+                            </TeamCard>
+
+                          )
+                        }
+                      })()}
                     </div>
                   </div>
                 </div>
@@ -502,38 +448,69 @@ const TeamOutline = ({ page }) => {
                     <h2 className="team-row-heads ">{team.section_13}</h2>{" "}
                   </div>
                   <div className="row">
-                    <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.editorial_name_1}
-                          faceImage={team.editorial_pic_1}
-                          instagramLink={team.editorial_instagram_1}
-                          githubLink={team.editorial_github_1}
-                          linkedinLink={team.editorial_linkedin_1}
-                        >
-                          {team.short_editorial_text_1}
-                        </TeamCardFront>
-                        <TeamCardBack>
-                          {team.long_editorial_text_1}
-                        </TeamCardBack>
-                      </TeamCard>
-                    </div>
-                    <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.editorial_name_2}
-                          faceImage={team.editorial_pic_2}
-                          instagramLink={team.editorial_instagram_2}
-                          githubLink={team.editorial_github_2}
-                          linkedinLink={team.editorial_linkedin_2}
-                        >
-                          {team.short_editorial_text_2}
-                        </TeamCardFront>
-                        <TeamCardBack>
-                          {team.long_editorial_text_2}
-                        </TeamCardBack>
-                      </TeamCard>
-                    </div>
+                  {(() => {
+                    if (team.editorial_name_2!="") {
+                      return (
+                        <div className="col-md-6">
+                          <TeamCard>
+                            <TeamCardFront
+                              title={team.editorial_name_1}
+                              faceImage={team.editorial_pic_1}
+                              instagramLink={team.editorial_instagram_1}
+                              githubLink={team.editorial_github_1}
+                              linkedinLink={team.editorial_linkedin_1}
+                            >
+                              {team.short_editorial_text_1}
+                            </TeamCardFront>
+                            <TeamCardBack>
+                              {team.long_editorial_text_1}
+                            </TeamCardBack>
+                          </TeamCard>
+                        </div>
+                      )
+                    }else{
+                      return (
+                      <div className="col-md-12">
+                        <TeamCard>
+                          <TeamCardFront
+                            title={team.editorial_name_1}
+                            faceImage={team.editorial_pic_1}
+                            instagramLink={team.editorial_instagram_1}
+                            githubLink={team.editorial_github_1}
+                            linkedinLink={team.editorial_linkedin_1}
+                          >
+                            {team.short_editorial_text_1}
+                          </TeamCardFront>
+                          <TeamCardBack>
+                            {team.long_editorial_text_1}
+                          </TeamCardBack>
+                        </TeamCard>
+                      </div>)
+                    }
+                  })()}
+
+                  {(() => {
+                    if (team.editorial_name_2!="") {
+                      return (
+                        <div className="col-md-6">
+                          <TeamCard>
+                            <TeamCardFront
+                              title={team.editorial_name_2}
+                              faceImage={team.editorial_pic_2}
+                              instagramLink={team.editorial_instagram_2}
+                              githubLink={team.editorial_github_2}
+                              linkedinLink={team.editorial_linkedin_2}
+                            >
+                              {team.short_editorial_text_2}
+                            </TeamCardFront>
+                            <TeamCardBack>
+                              {team.long_editorial_text_2}
+                            </TeamCardBack>
+                          </TeamCard>
+                        </div>
+                      )
+                    }
+                  })()}
                   </div>
                 </div>
               </div>
@@ -580,32 +557,47 @@ const TeamOutline = ({ page }) => {
                   </div>
                   <div className="row">
                     <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.event_name_3}
-                          faceImage={team.event_pic_3}
-                          instagramLink={team.event_instagram_3}
-                          githubLink={team.event_github_3}
-                          linkedinLink={team.event_linkedin_3}
-                        >
-                          {team.short_event_text_3}
-                        </TeamCardFront>
-                        <TeamCardBack>{team.long_event_text_3}</TeamCardBack>
-                      </TeamCard>
+                    {(() => {
+                      if (team.comm_name_1!="") {
+                        return (
+
+                          <TeamCard>
+                            <TeamCardFront
+                              title={team.event_name_3}
+                              faceImage={team.event_pic_3}
+                              instagramLink={team.event_instagram_3}
+                              githubLink={team.event_github_3}
+                              linkedinLink={team.event_linkedin_3}
+                            >
+                              {team.short_event_text_3}
+                            </TeamCardFront>
+                            <TeamCardBack>{team.long_event_text_3}</TeamCardBack>
+                          </TeamCard>
+                        )
+                      }
+                    })()}
+
                     </div>
                     <div className="col-md-6">
-                      <TeamCard>
-                        <TeamCardFront
-                          title={team.event_name_4}
-                          faceImage={team.event_pic_4}
-                          instagramLink={team.event_instagram_4}
-                          githubLink={team.event_github_4}
-                          linkedinLink={team.event_linkedin_4}
-                        >
-                          {team.short_event_text_4}
-                        </TeamCardFront>
-                        <TeamCardBack>{team.long_event_text_4}</TeamCardBack>
-                      </TeamCard>
+                    {(() => {
+                      if (team.comm_name_1!="") {
+                        return (
+
+                          <TeamCard>
+                            <TeamCardFront
+                              title={team.event_name_4}
+                              faceImage={team.event_pic_4}
+                              instagramLink={team.event_instagram_4}
+                              githubLink={team.event_github_4}
+                              linkedinLink={team.event_linkedin_4}
+                            >
+                              {team.short_event_text_4}
+                            </TeamCardFront>
+                            <TeamCardBack>{team.long_event_text_4}</TeamCardBack>
+                          </TeamCard>
+                        )
+                      }
+                    })()}
                     </div>
                   </div>
                 </div>
